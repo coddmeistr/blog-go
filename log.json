@@ -1,0 +1,113 @@
+{"level":"info","ts":"2023-09-28T18:09:54.590+0300","caller":"blog/main.go:73","msg":"Hello World"}
+{"level":"error","ts":"2023-09-28T18:09:54.596+0300","caller":"blog/main.go:74","msg":"Not able to reach blog.","url":"codewithmukesh.com","stacktrace":"main.main\n\tc:/Users/Maxim/Desktop/go/blog/main.go:74\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:267"}
+{"level":"info","ts":"2023-10-02T23:08:58.967+0300","caller":"user/service.go:142","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-02T23:08:58.984+0300","caller":"user/repo.go:144","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-02T23:09:32.728+0300","caller":"user/service.go:118","msg":"In DeleteUser","service":"user_service"}
+{"level":"info","ts":"2023-10-02T23:09:32.728+0300","caller":"user/repo.go:79","msg":"In DeleteUser","service":"user_repository"}
+{"level":"info","ts":"2023-10-02T23:09:32.742+0300","caller":"user/repo.go:88","msg":"Users not found by id while deleting user","service":"user_repository"}
+{"level":"error","ts":"2023-10-02T23:09:32.742+0300","caller":"user/service.go:122","msg":"Error while deleting a user","service":"user_service","error":"Not found","stacktrace":"github.com/maxik12233/blog/user.(*UserServiceImpl).DeleteUser\n\tc:/Users/Maxim/Desktop/go/blog/user/service.go:122\ngithub.com/maxik12233/blog/user.makeDeleteUserEndpoint.func1\n\tc:/Users/Maxim/Desktop/go/blog/user/endpoints.go:92\ngithub.com/go-kit/kit/transport/http.Server.ServeHTTP\n\tC:/Users/Maxim/go/pkg/mod/github.com/go-kit/kit@v0.13.0/transport/http/server.go:121\ngithub.com/gorilla/mux.(*Router).ServeHTTP\n\tC:/Users/Maxim/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210\nnet/http.serverHandler.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2938\nnet/http.(*conn).serve\n\tC:/Program Files/Go/src/net/http/server.go:2009"}
+{"level":"info","ts":"2023-10-02T23:12:14.598+0300","caller":"user/service.go:118","msg":"In DeleteUser","service":"user_service"}
+{"level":"info","ts":"2023-10-02T23:12:14.612+0300","caller":"user/repo.go:79","msg":"In DeleteUser","service":"user_repository"}
+{"level":"info","ts":"2023-10-02T23:12:14.616+0300","caller":"user/repo.go:88","msg":"Users not found by id while deleting user","service":"user_repository"}
+{"level":"error","ts":"2023-10-02T23:12:14.616+0300","caller":"user/service.go:122","msg":"Error while deleting a user","service":"user_service","error":"Not found"}
+{"level":"info","ts":"2023-10-02T23:12:45.786+0300","caller":"user/service.go:130","msg":"In GetOne","service":"user_service"}
+{"level":"info","ts":"2023-10-02T23:12:45.786+0300","caller":"user/repo.go:110","msg":"In GetOneById","service":"user_repository"}
+{"level":"info","ts":"2023-10-02T23:12:50.623+0300","caller":"user/service.go:130","msg":"In GetOne","service":"user_service"}
+{"level":"info","ts":"2023-10-02T23:12:50.623+0300","caller":"user/repo.go:110","msg":"In GetOneById","service":"user_repository"}
+{"level":"info","ts":"2023-10-02T23:12:50.634+0300","caller":"user/repo.go:119","msg":"Users not found by id","service":"user_repository"}
+{"level":"error","ts":"2023-10-02T23:12:50.634+0300","caller":"user/service.go:134","msg":"Error while getting one user by id","service":"user_service","error":"Not found"}
+{"level":"info","ts":"2023-10-02T23:55:56.398+0300","caller":"user/service.go:162","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-02T23:55:56.413+0300","caller":"user/repo.go:166","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T00:02:49.473+0300","caller":"user/service.go:33","msg":"In CreateUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T00:02:49.563+0300","caller":"user/repo.go:76","msg":"In CreateUser","service":"user_repository"}
+{"level":"error","ts":"2023-10-03T00:02:49.581+0300","caller":"user/repo.go:79","msg":"Error while creating user","service":"user_repository","error":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"users_login_key\" (SQLSTATE 23505)"}
+{"level":"error","ts":"2023-10-03T00:02:49.582+0300","caller":"user/service.go:59","msg":"Error while creating a user","service":"user_service","error":"Internal error"}
+{"level":"info","ts":"2023-10-03T00:11:59.912+0300","caller":"user/service.go:33","msg":"In CreateUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T00:12:00.007+0300","caller":"user/repo.go:76","msg":"In CreateUser","service":"user_repository"}
+{"level":"error","ts":"2023-10-03T00:12:00.022+0300","caller":"user/repo.go:79","msg":"Error while creating user","service":"user_repository","error":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"users_login_key\" (SQLSTATE 23505)"}
+{"level":"error","ts":"2023-10-03T00:12:00.022+0300","caller":"user/service.go:59","msg":"Error while creating a user","service":"user_service","error":"Internal error"}
+{"level":"info","ts":"2023-10-03T00:19:06.595+0300","caller":"user/service.go:33","msg":"In CreateUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T00:19:06.686+0300","caller":"user/repo.go:76","msg":"In CreateUser","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T00:19:35.907+0300","caller":"user/service.go:33","msg":"In CreateUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T00:19:35.985+0300","caller":"user/repo.go:76","msg":"In CreateUser","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T00:19:43.931+0300","caller":"user/service.go:33","msg":"In CreateUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T00:19:44.011+0300","caller":"user/repo.go:76","msg":"In CreateUser","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T00:20:00.091+0300","caller":"user/service.go:165","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T00:20:00.091+0300","caller":"user/repo.go:166","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T00:20:27.519+0300","caller":"user/service.go:87","msg":"In UpdateContactInfo","service":"user_service"}
+{"level":"info","ts":"2023-10-03T00:20:27.519+0300","caller":"user/repo.go:55","msg":"In UpdateUserContactInfo","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T00:20:33.083+0300","caller":"user/service.go:165","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T00:20:33.083+0300","caller":"user/repo.go:166","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T00:50:28.978+0300","caller":"user/service.go:165","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T00:50:28.992+0300","caller":"user/repo.go:166","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:00:39.509+0300","caller":"user/service.go:165","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:00:39.523+0300","caller":"user/repo.go:166","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:00:47.231+0300","caller":"user/service.go:68","msg":"In UpdatePersonalInfo","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:00:47.231+0300","caller":"user/repo.go:34","msg":"In UpdateUserPersonalInfo","service":"user_repository"}
+{"level":"error","ts":"2023-10-03T01:00:47.248+0300","caller":"user/repo.go:47","msg":"Error while updating user's personal info","service":"user_repository","error":"ОШИБКА: INSERT или UPDATE в таблице \"personal_infos\" нарушает ограничение внешнего ключа \"fk_personal_infos_location\" (SQLSTATE 23503)"}
+{"level":"error","ts":"2023-10-03T01:00:47.248+0300","caller":"user/service.go:79","msg":"Error while updating personal info","service":"user_service","error":"Internal error"}
+{"level":"info","ts":"2023-10-03T01:02:05.840+0300","caller":"user/service.go:165","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:02:05.854+0300","caller":"user/repo.go:166","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:02:15.092+0300","caller":"user/service.go:68","msg":"In UpdatePersonalInfo","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:02:15.092+0300","caller":"user/repo.go:34","msg":"In UpdateUserPersonalInfo","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:02:22.416+0300","caller":"user/service.go:165","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:02:22.416+0300","caller":"user/repo.go:166","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:12:23.209+0300","caller":"user/service.go:183","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:12:23.225+0300","caller":"user/repo.go:194","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:13:06.069+0300","caller":"user/service.go:69","msg":"In UpdateLocation","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:13:06.069+0300","caller":"user/repo.go:35","msg":"In UpdateLocation","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:13:11.966+0300","caller":"user/service.go:69","msg":"In UpdateLocation","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:13:11.966+0300","caller":"user/repo.go:35","msg":"In UpdateLocation","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:13:18.111+0300","caller":"user/service.go:183","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:13:18.111+0300","caller":"user/repo.go:194","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:16:52.712+0300","caller":"user/service.go:183","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:16:52.728+0300","caller":"user/repo.go:211","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:16:57.968+0300","caller":"user/service.go:69","msg":"In UpdateLocation","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:16:57.968+0300","caller":"user/repo.go:35","msg":"In UpdateLocation","service":"user_repository"}
+{"level":"error","ts":"2023-10-03T01:16:57.970+0300","caller":"user/repo.go:44","msg":"Error while updating location","service":"user_repository"}
+{"level":"error","ts":"2023-10-03T01:16:57.970+0300","caller":"user/service.go:78","msg":"Error while updating location","service":"user_service","error":"Invalid id"}
+{"level":"info","ts":"2023-10-03T01:17:13.092+0300","caller":"user/service.go:69","msg":"In UpdateLocation","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:17:13.092+0300","caller":"user/repo.go:35","msg":"In UpdateLocation","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:17:16.347+0300","caller":"user/service.go:183","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:17:16.347+0300","caller":"user/repo.go:211","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:19:05.566+0300","caller":"user/service.go:122","msg":"In LoginUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:19:05.567+0300","caller":"user/repo.go:194","msg":"In GetOneByLogin","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:19:05.569+0300","caller":"user/repo.go:131","msg":"In GetUserRoles","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:19:09.593+0300","caller":"user/service.go:122","msg":"In LoginUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:19:09.593+0300","caller":"user/repo.go:194","msg":"In GetOneByLogin","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:19:09.598+0300","caller":"user/repo.go:203","msg":"Users not found by login","service":"user_repository"}
+{"level":"error","ts":"2023-10-03T01:19:09.599+0300","caller":"user/service.go:128","msg":"Error while getting user by login","service":"user_service","error":"Not found"}
+{"level":"info","ts":"2023-10-03T01:19:14.030+0300","caller":"user/service.go:122","msg":"In LoginUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:19:14.030+0300","caller":"user/repo.go:194","msg":"In GetOneByLogin","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:19:14.035+0300","caller":"user/repo.go:131","msg":"In GetUserRoles","service":"user_repository"}
+{"level":"error","ts":"2023-10-03T01:19:14.111+0300","caller":"user/service.go:146","msg":"Error while comparing hash and password","service":"user_service","error":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","ts":"2023-10-03T01:19:15.909+0300","caller":"user/service.go:122","msg":"In LoginUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T01:19:15.909+0300","caller":"user/repo.go:194","msg":"In GetOneByLogin","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T01:19:15.919+0300","caller":"user/repo.go:131","msg":"In GetUserRoles","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T05:26:26.750+0300","caller":"user/service.go:183","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T05:26:26.765+0300","caller":"user/repo.go:211","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T05:27:36.943+0300","caller":"user/service.go:122","msg":"In LoginUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T05:27:36.947+0300","caller":"user/repo.go:194","msg":"In GetOneByLogin","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T05:27:36.961+0300","caller":"user/repo.go:131","msg":"In GetUserRoles","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T05:27:40.226+0300","caller":"user/service.go:183","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T05:27:40.226+0300","caller":"user/repo.go:211","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T05:28:58.771+0300","caller":"user/service.go:34","msg":"In CreateUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T05:28:58.861+0300","caller":"user/repo.go:121","msg":"In CreateUser","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T05:29:06.520+0300","caller":"user/service.go:182","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T05:29:06.521+0300","caller":"user/repo.go:211","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T05:29:17.840+0300","caller":"user/service.go:121","msg":"In LoginUser","service":"user_service"}
+{"level":"info","ts":"2023-10-03T05:29:17.840+0300","caller":"user/repo.go:194","msg":"In GetOneByLogin","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T05:29:17.858+0300","caller":"user/repo.go:131","msg":"In GetUserRoles","service":"user_repository"}
+{"level":"info","ts":"2023-10-03T05:29:20.906+0300","caller":"user/service.go:182","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-03T05:29:20.906+0300","caller":"user/repo.go:211","msg":"In GetAll","service":"user_repository"}
+{"level":"info","ts":"2023-10-05T00:11:36.627+0300","caller":"user/service.go:122","msg":"In LoginUser","service":"user_service"}
+{"level":"info","ts":"2023-10-05T00:11:36.648+0300","caller":"user/repo.go:194","msg":"In GetOneByLogin","service":"user_repository"}
+{"level":"info","ts":"2023-10-05T00:11:36.655+0300","caller":"user/repo.go:203","msg":"Users not found by login","service":"user_repository"}
+{"level":"error","ts":"2023-10-05T00:11:36.655+0300","caller":"user/service.go:128","msg":"Error while getting user by login","service":"user_service","error":"Not found"}
+{"level":"info","ts":"2023-10-05T00:11:42.207+0300","caller":"user/service.go:34","msg":"In CreateUser","service":"user_service"}
+{"level":"info","ts":"2023-10-05T00:11:42.283+0300","caller":"user/repo.go:121","msg":"In CreateUser","service":"user_repository"}
+{"level":"info","ts":"2023-10-05T00:11:45.218+0300","caller":"user/service.go:122","msg":"In LoginUser","service":"user_service"}
+{"level":"info","ts":"2023-10-05T00:11:45.218+0300","caller":"user/repo.go:194","msg":"In GetOneByLogin","service":"user_repository"}
+{"level":"info","ts":"2023-10-05T00:11:45.224+0300","caller":"user/repo.go:131","msg":"In GetUserRoles","service":"user_repository"}
+{"level":"info","ts":"2023-10-05T00:11:47.083+0300","caller":"user/service.go:183","msg":"In GetAll","service":"user_service"}
+{"level":"info","ts":"2023-10-05T00:11:47.083+0300","caller":"user/repo.go:211","msg":"In GetAll","service":"user_repository"}
